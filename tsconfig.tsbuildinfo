@@ -1,1 +1,0 @@
-{"root":["./src/main.ts","./src/ocr.ts","./src/preprocess.ts","./tests/ocr.test.ts","./tests/preprocess.test.ts","./tests/smoke.test.ts","./vite.config.ts"],"version":"5.9.3"}
