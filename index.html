@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser ONNX OCR Lab</title>
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Browser ONNX OCR Lab</h1>
+        <p>Upload one image and compare OCR pipelines by confidence and latency.</p>
+      </header>
+
+      <section class="panel controls">
+        <label for="fileInput" class="upload-label">Choose image</label>
+        <input id="fileInput" type="file" accept="image/*" />
+        <button id="runBtn" disabled>Run comparison</button>
+      </section>
+
+      <section id="results" class="grid"></section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
